@@ -73,9 +73,5 @@ Oddratio = exp(raminghamLog$coefficients)
 Oddratio
 
 
-plot(df.test$TenYearCHD, df.test$age)
-curve(predict(backward,data.frame(df.test$age=x),type="resp"),add=TRUE)
-
-
 
 
